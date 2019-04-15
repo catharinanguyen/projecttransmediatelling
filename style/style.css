@@ -1,0 +1,163 @@
+body {
+	background-image: url("../images/webheader-green.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 120%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	margin: 0px;
+	text-align: center;
+}
+body > div{
+	box-sizing: border-box;
+	overflow: auto;
+	transition: all 0.8s;
+}
+body > div.active{
+	transition: all 0.8s;
+}
+
+.header {
+    overflow: auto;
+    width: 100%;
+    background-color: transparent;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    z-index: 10;
+    margin: 0 5%;
+    
+}
+.woodboard {
+    float: left;
+    height: 60px;
+    display: inline;
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.a img {
+
+    width: auto;
+    height: 70px;
+}
+
+.b img {
+    width: auto;
+    height: 70px;
+}
+
+.c img {
+    width: auto;
+    height: 70px;
+}
+
+ .d img {
+    width: auto;
+    height: 70px;
+}
+
+body h1 {
+    font-family: 'Oldenburg', cursive; 
+    font-size: 30px;
+}
+
+body p {
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    top: 70px;
+    padding: 3%;
+    z-index: 1;
+    text-align: center;
+    margin: 0 3%;
+}
+
+.textbox {
+    background-color: aliceblue;
+    width: 50%;
+    padding: 3%;
+    text-align: left;
+}
+
+.home {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.video {
+    height: 360px;
+    width: 640px;
+    margin: 0 auto;
+}
+
+iframe {
+	width: 90%;
+	height: 90%;
+}
+
+.start img{
+    height: 180px;
+    width: auto;
+    margin: 0 3%;
+    padding: 0% 15% 3% 18%;
+    background-color: Transparent;
+}
+
+body button {
+    background-color: Transparent;
+    border-style: none;
+}
+
+.character{
+	width: 100%;
+    height: auto;
+    margin: 0 3%;
+
+}
+.center-content{
+	width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+#info-coloumn{
+    float: left;
+    width: 600px;
+    height: 150px;
+    background: #e8e8e8;
+
+}
+#fig-column{
+    float: right;
+    width: 400px;
+    height: 150px;
+    background: white;
+}
+.figures{
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 200px;
+    display: inline;
+}
+.figures img{
+	width: auto;
+	height: 200px;
+}
+
+h1{
+    text-align: left;
+    font-family: 'Fredericka the Great', cursive;
+    color:  #1F000F;
+    text-transform: uppercase;
+}
